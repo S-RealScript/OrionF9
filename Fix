@@ -648,7 +648,7 @@ function OrionLib:MakeWindow(WindowConfig)
 		OrionLib:MakeNotification({
 			Name = "Interface Hidden",
 			Content = "Tap F5 to reopen the interface",
-			Time = 5
+			Time = 2
 		})
 		WindowConfig.CloseCallback()
 	end)
